@@ -1,0 +1,134 @@
+@import "./variables";
+
+.preset-slides{
+    position: relative;
+    height: 100%;
+}
+.preset{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: margin-left 1.5s;
+    &:nth-child(4) {
+        opacity: 0;
+        transition: opacity 1.5s;
+    }
+    &:not(.preset:nth-child(1)) {
+        z-index: -1;
+    }
+}
+
+.preset:nth-child(1){
+    
+    z-index: 1;
+}
+
+.preset:nth-child(2), .preset:nth-child(3){
+    margin-left: 100%;
+}
+
+.preset:nth-child(1), .preset:nth-child(3) {
+    top: 0;
+}
+
+.preset:nth-child(1), .preset:nth-child(4) {
+    margin-left: 0;
+}
+
+.center-group{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.reg-group{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    max-width: 650px;
+    margin: auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.reg-title{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.main-title{
+    font-size: 3.5em;
+    font-weight: 900;
+    text-align: center;
+    color: black;
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.start-btn{
+    background: black;
+    border: none;
+    color: white;
+    font-size: 1.8em;
+    font-family: $main-font;
+    padding: 10px 50px;
+    border-radius: 15px;
+    text-align: center;
+    outline: none;
+}
+
+.story-pre{
+    padding: 20px 15px;
+    box-shadow: 0px 8px 20px #bbb;
+    border-radius: 20px;
+    font-size: 1.8em;
+    margin: 20px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.story-group{
+}
+
+.pick-story, .story-group{
+    position: absolute;
+    margin: 40px 0px;
+    top: -100vh;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar{
+        height: 100vh;
+        background: #ddd;
+    }
+    &::-webkit-scrollbar-thumb{
+        background: #aaa;
+    }
+    &::-webkit-scrollbar-button{
+        display: none;
+    }
+}
+
+.story-output{
+    font-size: 1.6em;
+    line-height: 2em;
+    padding: 20px;
+    text-align: justify;
+}
+
+.story-title{
+    font-size: 1.6em;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.input-final{
+    border-bottom: solid 4px black;
+    padding: 2.5px 5px;
+}

@@ -1,0 +1,31 @@
+@import "./variables";
+
+.what-type{
+    font-size: 1.5em;
+    color: #666666;
+    padding: 20px 0px;
+}
+
+.what-type-out{
+    color: black;
+    font-weight: 600;
+    font-size: 2em;
+    transition: margin-left 0.4s, opacity 0.4s;
+}
+
+.word-input{
+    font-size: 1.8em;
+    font-family: $main-font;
+    padding: 10px 20px;
+    width: 60%;
+    max-width: 350px;
+    border: solid 3px #aaa;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 500;
+    transition: border-color 0.5s, margin-left 0.1s;
+    transition-timing-function: ease-in-out;
+    &::placeholder{
+        color: #aaa;
+    }
+}

@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik";
+  background: white;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+button {
+  outline: none;
+}
+
+input {
+  outline: none;
+}
+
+.all {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.what-type {
+  font-size: 1.5em;
+  color: #666666;
+  padding: 20px 0px;
+}
+
+.what-type-out {
+  color: black;
+  font-weight: 600;
+  font-size: 2em;
+  -webkit-transition: margin-left 0.4s, opacity 0.4s;
+  transition: margin-left 0.4s, opacity 0.4s;
+}
+
+.word-input {
+  font-size: 1.8em;
+  font-family: "Rubik";
+  padding: 10px 20px;
+  width: 60%;
+  max-width: 350px;
+  border: solid 3px #aaa;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: 500;
+  -webkit-transition: border-color 0.5s, margin-left 0.1s;
+  transition: border-color 0.5s, margin-left 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.word-input::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+.word-input:-ms-input-placeholder {
+  color: #aaa;
+}
+
+.word-input::-ms-input-placeholder {
+  color: #aaa;
+}
+
+.word-input::placeholder {
+  color: #aaa;
+}
+
+.preset-slides {
+  position: relative;
+  height: 100%;
+}
+
+.preset {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: margin-left 1.5s;
+  transition: margin-left 1.5s;
+}
+
+.preset:nth-child(4) {
+  opacity: 0;
+  -webkit-transition: opacity 1.5s;
+  transition: opacity 1.5s;
+}
+
+.preset:not(.preset:nth-child(1)) {
+  z-index: -1;
+}
+
+.preset:nth-child(1) {
+  z-index: 1;
+}
+
+.preset:nth-child(2), .preset:nth-child(3) {
+  margin-left: 100%;
+}
+
+.preset:nth-child(1), .preset:nth-child(3) {
+  top: 0;
+}
+
+.preset:nth-child(1), .preset:nth-child(4) {
+  margin-left: 0;
+}
+
+.center-group {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.reg-group {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  max-width: 650px;
+  margin: auto;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.reg-title {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.main-title {
+  font-size: 3.5em;
+  font-weight: 900;
+  text-align: center;
+  color: black;
+  width: 100%;
+  margin: 30px 0px;
+}
+
+.start-btn {
+  background: black;
+  border: none;
+  color: white;
+  font-size: 1.8em;
+  font-family: "Rubik";
+  padding: 10px 50px;
+  border-radius: 15px;
+  text-align: center;
+  outline: none;
+}
+
+.story-pre {
+  padding: 20px 15px;
+  -webkit-box-shadow: 0px 8px 20px #bbb;
+          box-shadow: 0px 8px 20px #bbb;
+  border-radius: 20px;
+  font-size: 1.8em;
+  margin: 20px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.pick-story, .story-group {
+  position: absolute;
+  margin: 40px 0px;
+  top: -100vh;
+  left: 0;
+  right: 0;
+  bottom: -40px;
+  overflow-y: scroll;
+}
+
+.pick-story::-webkit-scrollbar, .story-group::-webkit-scrollbar {
+  height: 100vh;
+  background: #ddd;
+}
+
+.pick-story::-webkit-scrollbar-thumb, .story-group::-webkit-scrollbar-thumb {
+  background: #aaa;
+}
+
+.pick-story::-webkit-scrollbar-button, .story-group::-webkit-scrollbar-button {
+  display: none;
+}
+
+.story-output {
+  font-size: 1.6em;
+  line-height: 2em;
+  padding: 20px;
+  text-align: justify;
+}
+
+.story-title {
+  font-size: 1.6em;
+  font-weight: 600;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.input-final {
+  border-bottom: solid 4px black;
+  padding: 2.5px 5px;
+}
+/*# sourceMappingURL=main.css.map */

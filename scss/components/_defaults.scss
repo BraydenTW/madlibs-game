@@ -1,0 +1,25 @@
+@import "./variables";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik";
+    background: white;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+button{
+    outline: none;
+}
+
+input{
+    outline: none;
+}
+
+.all{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}

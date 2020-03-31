@@ -1,0 +1,72 @@
+{
+    "stories": [
+        {
+            "title": "A Day at the Beach",
+            "sequence": [
+                {
+                    "value": "Wow! Today sure is a(n) "
+                },
+                {
+                    "value": "adjective"
+                },
+                {
+                    "value": " day for the beach! I am going to "
+                },
+                {
+                    "value": "verb"
+                }, 
+                {
+                    "value": " my friends and then go "
+                },
+                {
+                    "value": "verb"
+                },
+                {
+                    "value": ". But when I go to the entrance, I see a "
+                },
+                {
+                    "value": "noun"
+                },
+                {
+                    "value": "! 'Wow!', I say. 'That smells like a "
+                },
+                {
+                    "value": "noun"
+                },
+                {
+                    "value": "!'. Ahhhhh!!! I "
+                },
+                {
+                    "value": "Adverb"
+                },
+                {
+                    "value": " run away. Then I see my friend "
+                },
+                {
+                    "value": "guy's name"
+                },
+                {
+                    "value": " getting into his car. I "
+                },
+                {
+                    "value": "verb"
+                },
+                {
+                    "value": ", 'Help me! It's too "
+                },
+                {
+                    "value": "adjective"
+                },
+                {
+                    "value": "!'. But it is too late. He drives away and I am stuck with this "
+                },
+                {
+                    "value": "adjective"
+                },
+                {
+                    "value": " thing until someone can save me."
+                }
+            ]
+        }
+    ]
+}

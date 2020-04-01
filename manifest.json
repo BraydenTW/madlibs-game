@@ -1,0 +1,16 @@
+{
+    "name": "Fill 'em in",
+    "short_name": "Fill 'em in",
+    "theme_color": "#fff",
+    "background_color": "#fff",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/index.html",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "./img/android-chrome-512x512.png",
+            "sizes": "512x512"
+        }
+    ]
+}
